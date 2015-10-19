@@ -1,4 +1,6 @@
 'use strict';
+// if you create an index.js file in plugins dir that exports these all you can just do this:
+// import { Shooting, Explosions, Spawn, Tinting, Score, Waves, Lives } from plugins
 
 import Shooting from '../plugins/shooting';
 import Explosions from '../plugins/explosions';
